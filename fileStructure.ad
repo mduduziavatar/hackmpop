@@ -1,0 +1,43 @@
+project-root/
+│
+├── node_modules/       (auto-generated, contains dependencies)
+│
+├── public/             (static assets like CSS, JavaScript, images)
+│   ├── css/            (CSS files)
+│   ├── js/             (JavaScript files)
+│   ├── images/         (Image files)
+│   └── ...
+│
+├── views/              (Handlebars templates)
+│   ├── layouts/        (shared layout templates)
+│   ├── home.handlebars (Home page template)
+│   ├── rentals.handlebars (Rentals page template)
+│   ├── entertainment.handlebars (Entertainment page template)
+│   ├── error.handlebars (Error page template)
+│   └── ...
+│
+├── routes/             (Express route handlers)
+│   ├── home.js         (Home page route)
+│   ├── rentals.js      (Rentals page route)
+│   ├── entertainment.js (Entertainment page route)
+│   └── ...
+│
+├── controllers/        (Controller functions)
+│   ├── homeController.js         (Home page controller)
+│   ├── rentalsController.js      (Rentals page controller)
+│   ├── entertainmentController.js (Entertainment page controller)
+│   └── ...
+│
+├── models/             (Data models, if using a database)
+│   ├── rentalModel.js   (Rental data model)
+│   └── ...
+│
+├── middlewares/         (Custom middleware functions)
+│   ├── errorHandlingMiddleware.js (Error handling middleware)
+│   └── ...
+│
+├── app.js              (Main application file)
+│
+├── package.json         (Project configuration and dependencies)
+│
+└── README.md            (Project documentation)
