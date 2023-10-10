@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "mdu",
+    "password": "1761",
+    "database": "popup",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "mdu",
+    "password": "1761",
+    "database": "popup",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "mdu",
+    "password": "1761",
+    "database": "popup",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
